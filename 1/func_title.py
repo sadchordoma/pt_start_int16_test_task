@@ -7,9 +7,6 @@ from string import punctuation
 not_letters = " 0123456789" + punctuation
 
 
-# Переделать без использования массива, а просто строки?
-
-
 def title(input: str) -> str:
     s = list(input)
     index = None
